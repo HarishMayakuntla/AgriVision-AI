@@ -1,1 +1,2 @@
 *.keras filter=lfs diff=lfs merge=lfs -text
+models/tomato_disease_mobilenetv2_finetuned.keras filter=lfs diff=lfs merge=lfs -text

@@ -17,6 +17,8 @@ dataset/test/
 
 # Model files
 models/*.keras
+models/*.keras
+!models/tomato_disease_mobilenetv2_finetuned.keras
 models/*.h5
 models/*.pkl
 
