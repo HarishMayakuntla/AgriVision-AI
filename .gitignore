@@ -1,27 +1,21 @@
-# Python
+# Dataset
+dataset/
+
+# Trained models
+models/*.keras
+models/*.h5
+
+# Python cache
 __pycache__/
 *.pyc
 
-# Environment
+# Virtual environments
+venv/
 .venv/
-.env
 
-# Jupyter
+# Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Dataset - large files
-dataset/raw/
-dataset/train/
-dataset/validation/
-dataset/test/
+# Environment secrets
+.env
 
-# Model files
-models/*.keras
-models/*.keras
-!models/tomato_disease_mobilenetv2_finetuned.keras
-models/*.h5
-models/*.pkl
-
-# Temporary files
-*.log
-.DS_Store
